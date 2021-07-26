@@ -12,10 +12,10 @@ export default class componentName extends Component {
 
                     <ul>
                         <li> <img src={Logo2} alt="" className='al' /></li>
-                        <li><a href="#" className='fw-bold ha'>Aboute</a></li>
-                        <li><a href="#" className='ha'>Services</a></li>
-                        <li><a href="#" className='ha'>Works</a></li>
-                        <li><a href="#" className='ha'>Blog</a></li>
+                        <li><a href="#section1" className='fw-bold ha'>Aboute</a></li>
+                        <li><a href="#section2" className='ha'>Services</a></li>
+                        <li><a href="#section3" className='ha'>Works</a></li>
+                        <li><a href="#section4" className='ha'>Blog</a></li>
                     </ul>
                 </div>
 

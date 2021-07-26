@@ -9,7 +9,7 @@ export default class componentName extends Component {
     render() {
         return (
             <div>
-                <div className="container section1">
+                <div className="container section1" id='section1'>
                     <div className="row">
                         <div className="col-md-4 col-sm-12 d-flex align-items-center">
                             <div className='p-3 m-1'>
