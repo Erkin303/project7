@@ -1,0 +1,208 @@
+
+body{
+    overflow-x: hidden;
+    transition: 0.3s;
+}
+
+/* header */
+.headerr{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 10px 30px;
+    background-color: white !important;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    margin: 0 20px;
+}
+a{
+    text-decoration: none !important;
+    
+}
+.ha{
+    color: black !important;
+}
+.al{
+  
+   
+    padding: 5px;
+   
+    
+    background: #8643DC;
+    border-radius: 20px 0px 20px 20px;
+}
+.list{
+  
+    width: 70px;
+    height: 70px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(198, 185, 233, 0.3);
+    border-radius: 50%;
+
+}
+
+.soz{
+   
+width: 26px;
+height: 26px;
+margin-left: 100px;
+margin-top: 30px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+}
+
+/* section1 */
+.section1{
+margin-top: 100px;
+
+
+
+color: #666666;
+}
+.hello{
+    text-align: start !important;
+    margin-left: 50px;
+}
+.person{
+
+width: 435px;
+height: 522px;
+
+}
+.talkBtn{
+   
+    width: 200px;
+    height: 60px;
+    left: 165px;
+    top: 440px;
+    
+    background: #8643DC;
+    border-radius: 100px;
+    
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+/* section2 */
+.section2{
+    color: black;
+  }
+  .sdf{
+      margin-left: 50px;
+      width: 250px;
+  }
+
+  /* section3 */
+  .lr{
+    width: 540px;
+    height: 427px;
+    filter: drop-shadow(0px 20px 50px rgba(220, 192, 255, 0.3));
+    border-radius: 10px;
+  }
+
+  /* section4 */
+  .smallImg{
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    text-align: center !important;
+  }
+  .smallBox{
+     margin: 10px !important;
+      width: 100%;
+      height: 100%;
+      background: #EDFFF5;
+border: 1px solid #CAFFE1;
+box-sizing: border-box;
+border-radius: 10px;
+box-shadow: 0 7px 7px 7px #caffe152;
+}
+.swiper{
+    width: 100%;
+    height: 80vh;
+    background: #E5E5E5;
+}
+.swimg{
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.view{
+    margin: 15px;
+    width: 250px;
+    height: 200px;
+}
+
+.imgrr{
+    width: 255px;
+height: 350px;
+object-fit: cover;
+z-index: 9;
+}
+
+.hp{
+    position: relative;
+    top: -150px;
+    left: 0;
+    z-index: 8;
+    opacity: 1;
+}
+.imgrr:hover {
+   z-index: 9;
+   opacity: 0.5;
+   transition: 0.3s;
+}
+/* section7 */
+.sameb{
+    width: 500px;
+}
+
+.forms{
+    padding: 10px;
+    margin: 10px 20px;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+.btnm{
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .soz {
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+    .list{
+        display: none;
+    }
+    li{
+        margin: 0 5px;
+    }
+    .smallBox{
+        margin: 10px !important;
+    }
+  }
