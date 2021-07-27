@@ -64,9 +64,6 @@ line-height: 26px;
 /* section1 */
 .section1{
 margin-top: 100px;
-
-
-
 color: #666666;
 }
 .hello{
@@ -154,23 +151,30 @@ box-shadow: 0 7px 7px 7px #caffe152;
 }
 
 .imgrr{
-    width: 255px;
+width: 255px;
 height: 350px;
 object-fit: cover;
-z-index: 9;
+border-radius: 5px;
 }
 
 .hp{
     position: relative;
-    top: -150px;
+    top: -160px;
     left: 0;
-    z-index: 8;
+    z-index: -1;
     opacity: 1;
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 .imgrr:hover {
    z-index: 9;
    opacity: 0.5;
-   transition: 0.3s;
+   transition: 0.4s;
+   box-shadow: 0 4px 6px 0 rgba(15, 14, 14, 0.37);
+}
+.imgrr:hover .hp{
+    z-index: 1;
 }
 /* section7 */
 .sameb{

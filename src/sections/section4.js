@@ -19,35 +19,35 @@ export default class componentName extends Component {
                             <p className='fs-1 text-dark'>Big Deal With</p></div>
                     </div>
                     <div className="row mb-5 d-flex justify-content-center">
-                        <div className="col-md-2 col-sm-6 pb-5">
+                        <div className="col-lg-2 col-sm-6 pb-5">
                             <div className='smallBox '>
                                 <div> <img src={bir} alt="" className='smallImg' /></div>
 
                                 <p className='fs-3 text-center m-3'>Slack</p>
                             </div>
                         </div>
-                        <div className="col-md-2 col-sm-6 pb-5">
+                        <div className="col-lg-2 col-sm-6 pb-5">
                             <div className='smallBox '>
                                 <div> <img src={ikki} alt="" className='smallImg' /></div>
 
                                 <p className='fs-3 text-center m-3'>Medium</p>
                             </div>
                         </div>
-                        <div className="col-md-2 col-sm-6  pb-5">
+                        <div className="col-lg-2 col-sm-6  pb-5">
                             <div className='smallBox '>
                                 <div> <img src={uch} alt="" className='smallImg' /></div>
 
                                 <p className='fs-3 text-center m-3'>Microsoft</p>
                             </div>
                         </div>
-                        <div className="col-md-2 col-sm-6 pb-5">
+                        <div className="col-lg-2 col-sm-6 pb-5">
                             <div className='smallBox '>
                                 <div> <img src={tort} alt="" className='smallImg' /></div>
 
                                 <p className='fs-3 text-center m-3'>Zeplin</p>
                             </div>
                         </div>
-                        <div className="col-md-2 col-sm-6  pb-5">
+                        <div className="col-lg-2 col-sm-6  pb-5">
                             <div className='smallBox '>
                                 <div> <img src={besh} alt="" className='smallImg' /></div>
 
